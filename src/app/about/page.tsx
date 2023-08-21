@@ -1,18 +1,18 @@
-'use client'
 import React from "react";
 import Image from "next/image";
 import { FaCode, FaDesktop } from "react-icons/fa";
 
-const HeroSection = () => {
+const AboutPage = () => {
   return (
     <section className="bg-gradient-to-r from-purple-600 to-indigo-900 text-white py-20 px-6">
       <div className="container mx-auto text-center">
         <div className="max-w-lg mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-9">
-            {`Hi, I'm Hunaid`}
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-9">{`About Me`}</h1>
           <p className="text-lg mb-8 text-justify">
-            {`Welcome to my web developer portfolio! I'm Hunaid, a skilled web developer with expertise in crafting engaging and responsive websites. Proficient in HTML, CSS, JavaScript, & React, I transform ideas into user-friendly digital experiences. Take a look at my portfolio to witness the results and let's work together to make your web projects a reality."`}
+            {`I'm Hunaid, a passionate web developer with a focus on creating user-friendly and visually appealing websites. With a strong foundation in HTML, CSS, JavaScript, and React, I have the skills to turn your ideas into stunning digital experiences. My goal is to make the web a more interactive and engaging place.`}
+          </p>
+          <p className="text-lg mb-8 text-justify">
+            {`I have a knack for crafting clean and efficient code that translates seamlessly into beautiful designs. Whether it's a personal blog, a business website, or an e-commerce platform, I'm dedicated to bringing your vision to life.`}
           </p>
           <div className="flex justify-center space-x-8">
             <a href="/projects" className="btn btn-primary flex items-center">
@@ -39,4 +39,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default AboutPage;
